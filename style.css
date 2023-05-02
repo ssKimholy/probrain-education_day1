@@ -1,0 +1,56 @@
+body{
+    width: 100vw;
+    height: 200vh;
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 50px;
+    overflow-x: hidden;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    color: palevioletred;
+}
+
+.introduce {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.introduceImg{
+    width: 20vw;
+    height: 20vw;
+}
+
+.introduceText{
+    color: palevioletred;
+}
+
+.introduceTextFirst{
+    margin: 2vh 0;
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.introduceTextSecond{
+    margin: 2vh 0;
+    font-size: 6vw;
+    font-weight: 700;
+} 
+
+.introduceTextThird{
+    margin: 2vh 0;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.introduceTextFourth{
+    margin: 2vh 0;
+    font-size: 2vw;
+    font-weight: 500;
+    font-family: 'Caveat', cursive;
+}
